@@ -9,3 +9,7 @@ To run the dev:
 
 1. cd your-project
 2. npm run dev
+
+for seeding data into vercel POSTGRESSQL DB:
+1. cd nextjs-dashboard
+2. npm run seed
