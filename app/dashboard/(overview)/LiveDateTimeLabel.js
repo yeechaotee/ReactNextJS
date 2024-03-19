@@ -26,9 +26,7 @@ const LiveDateTimeLabel = () => {
     });
 
     return (
-        <div>
-            <span>{formattedDateTime} (GMT +8)</span>
-        </div>
+        <span>{formattedDateTime} (GMT +8)</span>
     );
 };
 
