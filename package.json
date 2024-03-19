@@ -9,7 +9,11 @@
     "seed": "node -r dotenv/config ./scripts/seed.js"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
     "@heroicons/react": "^2.0.18",
+    "@mui/icons-material": "^5.15.14",
+    "@mui/material": "^5.15.14",
     "@tailwindcss/forms": "^0.5.7",
     "@types/node": "20.5.7",
     "@vercel/postgres": "^0.5.0",
@@ -22,6 +26,7 @@
     "react-dom": "18.2.0",
     "react-feather": "^2.0.10",
     "react-fontawesome": "^1.7.1",
+    "react-photo-album": "^2.3.1",
     "react-slick": "^0.30.2",
     "slick-carousel": "^1.8.1",
     "swiper": "^11.0.7",

@@ -1,0 +1,7 @@
+/* styles.css */
+.sticky-header {
+    position:sticky;
+    top: 0;
+    z-index: 100; /* Ensure the header is above other content */
+    /* Add any other styling you want for your header */
+}
