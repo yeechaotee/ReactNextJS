@@ -6,8 +6,8 @@ import { fetchCardData } from '@/app/lib/data'; // remove fetchRevenue
 import { Suspense } from 'react';
 import { RevenueChartSkeleton, LatestInvoicesSkeleton, } from '@/app/ui/skeletons';
 import ImageSlider from '@/app/src/Components/ImageSlider';
-import Marquee from 'react-fast-marquee';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import Marquee from 'react-fast-marquee';
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faVolumeHigh } from "@fortawesome/free-solid-svg-icons";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -147,13 +147,13 @@ export default async function Page() {
 
 
                     <div className="flex flex-row gap-3 mt-3 mb-3">
-                        <div className='w-5 justify-center mx-auto'>
+                        {/* <div className='w-5 justify-center mx-auto'>
                             <FontAwesomeIcon icon={faVolumeHigh} />
                         </div>
                         <Marquee>
                             <div>
                                 <p>Welcome to Q77WIN - Your Most Trusted Online Casino Asia ! Sign up & Deposit RM30 Get Free RM30 Credit ! Happy Winning !</p></div>
-                        </Marquee>
+                        </Marquee> */}
                     </div>
                     <>
                         <div className='flex flex-row items-center gap-3 mb-3'>
